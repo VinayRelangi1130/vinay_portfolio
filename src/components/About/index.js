@@ -20,7 +20,7 @@ const About = () => (
       abilities, stay current with industry trends, and drive impactful projects
       that enhance user experience and achieve business objectives.
     </p>
-    <a target="_main" href="https://drive.google.com/file/d/1Iteww19VuTGByVtz6GSzV26XiNfEXsYp/view?usp=sharing">
+    <a target="_main" href="https://drive.google.com/file/d/1lgWOTDDif79rfdJrsx8-enFvaDfAeF37/view?usp=sharing">
     <button className="download">
       Download CV
     </button>
