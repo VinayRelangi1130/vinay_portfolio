@@ -1,0 +1,125 @@
+
+
+.hero-container{
+    width: 60%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+
+.hero{
+    width: 100%;
+    height: 100%;
+    padding-left: 78px;
+    padding-right: 89px;
+    object-fit: cover;
+}
+
+main{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+
+}
+
+.name-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero-text{
+    font-family: "Roboto";
+}
+
+.hii{
+    font-family: "Qwitcher Grypen", cursive;
+    color: #FF8343;
+    font-size: 58px;
+    margin-right: 8px;
+}
+
+.name{
+    font-size: 37px;
+    font-family: "Roboto";
+    text-shadow: 3px 3px #0000000e;
+    margin-top: 5px;
+}
+
+.role{
+    color:#179BAE;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.hero-btns-container{
+    border:1px solid #000;
+    
+}
+
+.icons-container{
+    margin-top: 10px;
+}
+
+.icons{
+    text-decoration: none;
+    outline:none;
+    font-size:25px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.in{
+    color:rgb(50, 50, 148);
+}
+
+.git{
+    color:black;
+}
+
+@media screen and (min-width:768px){
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 60px;
+    }
+    .icons{
+        font-size: 35px;
+    }
+    
+    .hero-section{
+        width: 60%;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+
+    .name-container{
+        width: 50%;
+        text-align: left;
+        margin-top: 0px;
+    }
+    .name{
+        font-size: 50px;
+    }
+    .role{
+        font-size: 20px;
+    }
+    .hii{
+        font-size: 65px;
+    }
+}
